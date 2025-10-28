@@ -1,2 +1,13 @@
-# StockSphere
-StockSphere is a real-time stock monitoring web app that lets users search any stock and view live price updates, trends, and key insights. Designed with a clean and intuitive interface, it helps investors and market enthusiasts track stocks effortlessly and stay informed about market movements.
+# StockSphere 📈
+
+A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.
+
+## Setup
+
+1. Clone the repo
+2. Run `npm install`
+3. Add your Alpha Vantage API key in `routes/api.js`
+4. Start the server:
+
+```bash
+nodemon app.js

@@ -1,0 +1,20 @@
+{
+  "name": "stocksphere",
+  "version": "1.0.0",
+  "description": "A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": ["stocks", "dashboard", "express", "nodejs", "axios", "ejs"],
+  "author": "Pranathi Reddy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^4.18.2",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= symbol %> Stock Overview</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 <%= symbol %> Stock Overview</h1>
+
+    <% if (error) { %>
+      <p><%= error %></p>
+    <% } else if (stock) { %>
+      <ul>
+        <li><strong>Symbol:</strong> <%= stock['01. symbol'] %></li>
+        <li><strong>Open:</strong> $<%= stock['02. open'] %></li>
+        <li><strong>High:</strong> $<%= stock['03. high'] %></li>
+        <li><strong>Low:</strong> $<%= stock['04. low'] %></li>
+        <li><strong>Price:</strong> $<%= stock['05. price'] %></li>
+        <li><strong>Volume:</strong> <%= stock['06. volume'] %></li>
+        <li><strong>Last Updated:</strong> <%= stock['07. latest trading day'] %></li>
+        <li><strong>Previous Close:</strong> $<%= stock['08. previous close'] %></li>
+        <li><strong>Change:</strong> <%= stock['09. change'] %></li>
+        <li><strong>Change Percent:</strong> <%= stock['10. change percent'] %></li>
+      </ul>
+    <% } %>
+
+    <form action="/" method="GET">
+      <button type="submit">🔙 Back</button>
+    </form>
+  </div>
+</body>
+</html>
