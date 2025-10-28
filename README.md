@@ -10,6 +10,8 @@ A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.
 4. Start the server:
 ```bash
 nodemon app.js
+## 🌐 Live Demo  
+[Visit StockSphere](https://stocksphere-qj15.onrender.com)
 
 
 
@@ -21,6 +23,7 @@ nodemon app.js
 
 ### Stock Results
 ![Stock Result Screenshot](StockSphere/images/stock-results.png)
+
 
 
 
