@@ -11,3 +11,11 @@ A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.
 
 ```bash
 nodemon app.js
+#Screenshots
+## 🖼️ Screenshots
+### Homepage
+![Homepage Screenshot](images/homepage.png)
+
+### Stock Results
+![Stock Result Screenshot](images/stock-results.png)
+
