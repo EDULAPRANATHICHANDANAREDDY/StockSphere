@@ -14,8 +14,9 @@ nodemon app.js
 #Screenshots
 ## 🖼️ Screenshots
 ### Homepage
-![Homepage Screenshot](images/homepage.png)
+![Homepage Screenshot](StockSphere/images/homepage.png)
 
 ### Stock Results
-![Stock Result Screenshot](images/stock-results.png)
+![Stock Result Screenshot](StockSphere/images/stock-results.png)
+
 
