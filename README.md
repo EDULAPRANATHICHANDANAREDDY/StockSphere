@@ -11,8 +11,9 @@ A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.
 
 ```bash
 nodemon app.js
-## 🚀 Live Demo
-You can view the deployed project here: [StockSphere Live]https://stocksphere-qj15.onrender.com
+## 🌐 Live Demo  
+[Visit StockSphere](https://stocksphere-qj15.onrender.com)
+
 
 #Screenshots
 ## 🖼️ Screenshots
@@ -21,6 +22,7 @@ You can view the deployed project here: [StockSphere Live]https://stocksphere-qj
 
 ### Stock Results
 ![Stock Result Screenshot](StockSphere/images/stock-results.png)
+
 
 
 
