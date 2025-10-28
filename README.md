@@ -8,11 +8,10 @@ A real-time stock market dashboard built with Node.js, Express, Axios, and EJS.
 2. Run `npm install`
 3. Add your Alpha Vantage API key in `routes/api.js`
 4. Start the server:
-
 ```bash
 nodemon app.js
-## 🌐 Live Demo  
-[Visit StockSphere](https://stocksphere-qj15.onrender.com)
+
+
 
 
 #Screenshots
@@ -22,6 +21,7 @@ nodemon app.js
 
 ### Stock Results
 ![Stock Result Screenshot](StockSphere/images/stock-results.png)
+
 
 
 
